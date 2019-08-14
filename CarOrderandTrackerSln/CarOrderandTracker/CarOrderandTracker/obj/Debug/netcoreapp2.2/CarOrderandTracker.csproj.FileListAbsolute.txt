@@ -1,0 +1,17 @@
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrderandTracker.deps.json
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrderandTracker.runtimeconfig.json
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrderandTracker.runtimeconfig.dev.json
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrderandTracker.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.csprojAssemblyReference.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.csproj.CoreCompileInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.RazorAssemblyInfo.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.RazorAssemblyInfo.cs
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.AssemblyInfoInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.AssemblyInfo.cs
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.RazorTargetAssemblyInfo.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrderandTracker.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrder.Aggregate.Model.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\bin\Debug\netcoreapp2.2\CarOrder.Aggregate.Model.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.csproj.CopyComplete
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrederingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrderandTracker\obj\Debug\netcoreapp2.2\CarOrderandTracker.pdb

@@ -1,0 +1,59 @@
+<div class="login">
+    <div class="login-box">
+      <h1>Login</h1>
+      <img
+        class="main-logo"
+        src="./../../../assets/images/car.jfif"
+        alt=""
+      />
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="text-box">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input
+            type="email"
+            placeholder="Username"
+            name=""
+            value=""
+            formControlName="simpleFormEmailEx"
+          />
+        </div>
+        <div class="text-box">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input
+            type="password"
+            placeholder="Password"
+            name=""
+            value=""
+            formControlName="simpleFormPasswordEx"
+          />
+        </div>
+  
+        <button
+          class="btn signin-button"
+          (click)="appLogin()"
+          [disabled]="!loginForm.valid"
+          type="submit"
+        >
+          Sign In
+        </button>
+        `
+      </form>
+      <div style="width: 100%; display: flex; justify-content: center">
+        Sign in with social media account
+      </div>
+      <div style="display:flex; justify-content:center;">
+        <img
+          class="google"
+          (click)="googleLogin()"
+          style="height:32px; cursor:pointer; padding-left: 10px;"
+          src="./../../../assets/images/google signin.png"
+          alt=""
+        />
+      </div>
+      <div style="display:flex;justify-content: center; margin: 4px 0px;">
+        Not a member yet?
+        <a routerLink="/signup" style="margin-left: 8px;">Sign up</a>
+      </div>
+    </div>
+  </div>
+  
