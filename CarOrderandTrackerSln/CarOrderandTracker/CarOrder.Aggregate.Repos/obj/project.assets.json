@@ -1441,7 +1441,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CarOrder.Aggregate.Model/1.0.0": {
+      "CarOrder.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
@@ -1450,10 +1450,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.6"
         },
         "compile": {
-          "bin/placeholder/CarOrder.Aggregate.Model.dll": {}
+          "bin/placeholder/CarOrder.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CarOrder.Aggregate.Model.dll": {}
+          "bin/placeholder/CarOrder.Domain.dll": {}
         }
       }
     }
@@ -5256,15 +5256,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CarOrder.Aggregate.Model/1.0.0": {
+    "CarOrder.Domain/1.0.0": {
       "type": "project",
-      "path": "../CarOrder.Aggregate.Model/CarOrder.Aggregate.Model.csproj",
-      "msbuildProject": "../CarOrder.Aggregate.Model/CarOrder.Aggregate.Model.csproj"
+      "path": "../CarOrder.Aggregate.Model/CarOrder.Domain.csproj",
+      "msbuildProject": "../CarOrder.Aggregate.Model/CarOrder.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CarOrder.Aggregate.Model >= 1.0.0",
+      "CarOrder.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.2.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 2.2.6",
@@ -5280,11 +5280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
-      "projectName": "CarOrder.Aggregate.Repos",
-      "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
+      "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Business.csproj",
+      "projectName": "CarOrder.Business",
+      "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Business.csproj",
       "packagesPath": "C:\\Users\\shivani.bagavathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\obj\\",
+      "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5305,8 +5305,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
-              "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj"
+            "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Domain.csproj": {
+              "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Domain.csproj"
             }
           }
         }

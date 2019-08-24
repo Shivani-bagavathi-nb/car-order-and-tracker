@@ -1,0 +1,38 @@
+
+<div>
+    <h2> Add car list </h2>
+
+    <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="enter cars" [(ngModel)]="orders" />
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="button" (click)="onClick()">
+        <span class="glyphicon glyphicon-ok"></span>
+        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span> {{ orders.Orderitem }} </span>
+        </li>
+        <li class="list-group-item">
+              <span> {{ orders.Orderitemmodel }} </span>
+          </li>
+          <li class="list-group-item">
+            <span> {{ orders.Engine }} </span>
+        </li>
+        <li class="list-group-item">
+            <span> {{ orders.Make }} </span>
+        </li>
+        <li class="list-group-item">
+            <span> {{ orders.Year }} </span>
+        </li>
+    </ul>
+
+</div>

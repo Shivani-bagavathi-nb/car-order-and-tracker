@@ -1,7 +1,7 @@
-import {IOrder} from '../interfaces/IOrder.interface';
+import {IOrder} from './../interfaces/IOrder.interface'
 
 export class Order implements IOrder {
-  public Orderitem: BigInteger;
+  public Orderid: number;
   public Orderitemmodel: string;
   public Engine: string;
   public Make: string;

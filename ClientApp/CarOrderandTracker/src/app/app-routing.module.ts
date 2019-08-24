@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './auth/login/login.component';
-import { NotfoundComponent } from './notfound/notfound.component';
-import { OrderpageComponent } from './orderpage/orderpage.component';
+import { LoginComponent } from './Components/auth/login/login.component';
+import { NotfoundComponent } from './Components/notfound/not-found.component';
+import { OrderpageComponent } from './Components/orderpage/order-page.component';
+import {AuthService} from './shared/services/authservice'
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {
     path: 'orderpage',
     component: OrderpageComponent,
+   // canActivate: [AuthService]
     
   },
   { path: '**', component: NotfoundComponent }

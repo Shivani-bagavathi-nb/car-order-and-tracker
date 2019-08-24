@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {}
+    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
+    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
+        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
         "projectName": "CarOrder.Aggregate.Model",
-        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
+        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
         "packagesPath": "C:\\Users\\shivani.bagavathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\obj\\",
+        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

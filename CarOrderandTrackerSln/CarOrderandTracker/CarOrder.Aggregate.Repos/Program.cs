@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace CarOrder.Aggregate.Repos
+namespace NeuCarPlace.Domain
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(String[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }

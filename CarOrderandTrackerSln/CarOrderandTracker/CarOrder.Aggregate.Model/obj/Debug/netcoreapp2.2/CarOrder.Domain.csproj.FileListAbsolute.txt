@@ -1,0 +1,11 @@
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\bin\Debug\netcoreapp2.2\CarOrder.Domain.deps.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\bin\Debug\netcoreapp2.2\CarOrder.Domain.runtimeconfig.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\bin\Debug\netcoreapp2.2\CarOrder.Domain.runtimeconfig.dev.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\bin\Debug\netcoreapp2.2\CarOrder.Domain.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\bin\Debug\netcoreapp2.2\CarOrder.Domain.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.AssemblyInfoInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.AssemblyInfo.cs
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Model\obj\Debug\netcoreapp2.2\CarOrder.Domain.csprojAssemblyReference.cache

@@ -1,17 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule,NO_ERRORS_SCHEMA } from '@angular/core';
-import { NotfoundComponent } from './notfound/notfound.component';
+import { NotfoundComponent } from './Components/notfound/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LoginComponent } from './auth/login/login.component';
+import { LoginComponent } from './Components/auth/login/login.component';
 import { HttpClientModule } from '@angular/common/http'; 
 import {
   SocialLoginModule,
   GoogleLoginProvider,
   AuthServiceConfig
 } from 'ng4-social-login';
-import { OrderpageComponent } from './orderpage/orderpage.component';
+import { OrderpageComponent } from './Components/orderpage/order-page.component';
 const config = new AuthServiceConfig(
   [
     {
@@ -23,21 +23,6 @@ const config = new AuthServiceConfig(
   ],
   false
 );
-
-// @NgModule({
-//   declarations: [
-//     AppComponent,
-//     LoginComponent,
-//   ],
-//   imports: [
-//     BrowserModule,
-//     AppRoutingModule
-//   ],
-//   providers: [],
-//   bootstrap: [AppComponent]
-// })
-// export class AppModule { }
-
 
 export function provideConfig() {
   return config;
@@ -56,7 +41,6 @@ export function provideConfig() {
     FormsModule,
     ReactiveFormsModule,
     SocialLoginModule,
-    // ChartsModule,
     HttpClientModule,  
   ],
   schemas: [NO_ERRORS_SCHEMA],

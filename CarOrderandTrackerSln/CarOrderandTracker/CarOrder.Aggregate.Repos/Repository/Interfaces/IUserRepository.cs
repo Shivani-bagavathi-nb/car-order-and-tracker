@@ -1,8 +1,8 @@
-﻿using CarOrder.Aggregate.Model.Models;
+﻿using CarOrder.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CarOrder.Aggregate.Repos.Repository.Interfaces
+namespace CarOrder.Business.Interfaces
 {
     public interface IUserRepository
     {

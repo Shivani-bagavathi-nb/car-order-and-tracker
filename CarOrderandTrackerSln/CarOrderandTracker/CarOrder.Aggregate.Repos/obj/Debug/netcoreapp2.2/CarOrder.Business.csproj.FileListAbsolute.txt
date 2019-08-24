@@ -1,0 +1,14 @@
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Business.deps.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Business.runtimeconfig.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Business.runtimeconfig.dev.json
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Business.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Business.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Domain.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\bin\Debug\netcoreapp2.2\CarOrder.Domain.pdb
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.csprojAssemblyReference.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.csproj.CoreCompileInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.AssemblyInfoInputs.cache
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.AssemblyInfo.cs
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.csproj.CopyComplete
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.dll
+C:\Users\shivani.bagavathi\source\repos\CarOrderingandTracker\CarOrderandTrackerSln\CarOrderandTracker\CarOrder.Aggregate.Repos\obj\Debug\netcoreapp2.2\CarOrder.Business.pdb

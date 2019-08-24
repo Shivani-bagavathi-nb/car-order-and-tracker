@@ -5,13 +5,13 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace CarOrder.Aggregate.Model.Models
+namespace CarOrder.Domain.Models
 {
     public class User
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int UserId { get; private set; }
         [Key]
+        public int UserId { get; private set; }
         public string EmailId { get; set; }
         public string Password { get; set; }
     }

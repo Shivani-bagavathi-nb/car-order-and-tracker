@@ -16,8 +16,8 @@ export class OrderService {
   balletVotes: Order[] = ({} = []);
   constructor(private http: HttpClient) {}
 
-  getOrderedItems(): Observable<Order[]> {
-    return this.http.get<Order[]>(this.jsonurl);
+  getOrderItems(id : number): Observable<any>  {
+    return this.http.get(this.baseurl + "/getorder/" + id );
   }
 
   addItem(order: Order): Observable<any> {
@@ -32,10 +32,6 @@ export class OrderService {
   deleteItem(orderitemmodel: string): Observable<any> {
     return this.http.get<any>(this.baseurl);
   }
-
-//   getItems(orderItem: BigInteger): Observable<Order> {
-//    // const  orderedData = new HttpParams().set('orderItem', orderItem )
-//     return this.http.get<Order>(this.baseurl + ('/getitem',orderItem)};}
 
   
 }

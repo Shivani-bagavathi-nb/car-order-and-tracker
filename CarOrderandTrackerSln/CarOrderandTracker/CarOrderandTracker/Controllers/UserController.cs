@@ -1,63 +1,73 @@
 ﻿
-using CarOrder.Aggregate.Model.Models;
-using CarOrder.Aggregate.Repos.Repository.Interfaces;
+
+using CarOrder.Domain.Context;
+using CarOrder.Domain.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CarOrder.Aggregate.Controllers
+namespace CarOrder.Services
 {
     [Produces("application/json")]
     [Route("api/user")]
     [ApiController]
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
-        private readonly IUserRepository _userRepository;
+        private readonly CarOrderAndTrackerDbContext _context;
 
-        public UserController(IUserRepository userRepository)
+        public UserController(CarOrderAndTrackerDbContext context)
         {
-            this._userRepository = userRepository;
+            _context = context;
         }
 
         [HttpGet]
-        [Route("getuser")]
+        [Route("getuser/{id}")]
         [EnableCors("AllowOrigin")]
-        public async Task<bool> GetUser(string emailId, string password)
+        public async Task<IActionResult> GetUser([FromRoute] string emailId)
         {
-            User user = null;
-            try
+            if (!ModelState.IsValid)
             {
-                user = await _userRepository.GetUser(emailId,password);
-                if (user != null)
-                {
-                    return true;
-                }
-                return false;
+                return BadRequest(ModelState);
             }
-            catch (Exception ex)
+
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.EmailId == emailId);
+
+            if (user == null)
             {
-                throw ex;
+                return NotFound();
             }
+
+            return Ok(user.Password);
         }
 
         [HttpPost]
         [Route("adduser")]
         [EnableCors("AllowOrigin")]
-        public async Task AddUser([FromBody] User user)
+        public async Task<IActionResult> PostUser([FromBody] User user)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                await _userRepository.AddUser(user);
-                return;
+                return BadRequest(ModelState);
             }
-            catch (Exception ex)
+
+            if (!UserExists(user.EmailId))
             {
-                throw ex;
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction("GetUser", new { emailId = user.EmailId }, user);
             }
+            else return (BadRequest("User Exists"));
         }
+        private bool UserExists(string emailId)
+        {
+            return _context.Users.Any(e => e.EmailId == emailId);
+        }
+
     }
 }

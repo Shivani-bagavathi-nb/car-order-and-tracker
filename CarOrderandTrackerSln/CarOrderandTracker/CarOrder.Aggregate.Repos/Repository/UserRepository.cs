@@ -2,28 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CarOrder.Aggregate.Model.Context;
-using CarOrder.Aggregate.Model.Models;
-using CarOrder.Aggregate.Repos.Repository.Interfaces;
+using CarOrder.Business.Interfaces;
+using CarOrder.Domain.Context;
+using CarOrder.Domain.Models;
 
-namespace CarOrder.Aggregate.Repos.Repository
+namespace CarOrder.Business.Repository
 {
     public class UserRepository : IUserRepository
     {
-        readonly UserContext _userContext;
+        readonly CarOrderAndTrackerDbContext _context;
 
-        public UserRepository(UserContext context)
+        public UserRepository(CarOrderAndTrackerDbContext context)
         {
-            _userContext = context;
+            _context = context;
         }
 
       
 
-        public async Task<User> GetUser(string userEmailId, string password)
+        public async Task<User> GetUser(string emailId, string password)
         {
             try
             {
-                return  _userContext.Users.Find(userEmailId,password);
+                return _context.Users.Find(emailId, password);
                
             }
 
@@ -38,7 +38,7 @@ namespace CarOrder.Aggregate.Repos.Repository
         {
             try
             {
-                await _userContext.Users.AddAsync(user);
+                await _context.Users.AddAsync(user);
                 return;
             }
             catch (Exception ex)

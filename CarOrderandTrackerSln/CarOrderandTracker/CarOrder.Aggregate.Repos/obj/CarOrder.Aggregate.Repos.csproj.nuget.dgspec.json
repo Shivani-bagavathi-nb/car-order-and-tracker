@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj": {}
+    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
+    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
+        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
         "projectName": "CarOrder.Aggregate.Model",
-        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
+        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj",
         "packagesPath": "C:\\Users\\shivani.bagavathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\obj\\",
+        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj": {
+    "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
+        "projectUniqueName": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
         "projectName": "CarOrder.Aggregate.Repos",
-        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
+        "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\CarOrder.Aggregate.Repos.csproj",
         "packagesPath": "C:\\Users\\shivani.bagavathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\obj\\",
+        "outputPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Repos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -98,8 +98,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
-                "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrederingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj"
+              "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj": {
+                "projectPath": "C:\\Users\\shivani.bagavathi\\source\\repos\\CarOrderingandTracker\\CarOrderandTrackerSln\\CarOrderandTracker\\CarOrder.Aggregate.Model\\CarOrder.Aggregate.Model.csproj"
               }
             }
           }
@@ -134,10 +134,6 @@
             "NuGet.Configuration": {
               "target": "Package",
               "version": "[5.2.0, )"
-            },
-            "UmbracoCms.Core": {
-              "target": "Package",
-              "version": "[8.1.2, )"
             }
           },
           "imports": [

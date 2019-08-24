@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarOrder.Aggregate", "CarOrderandTracker\CarOrder.Aggregate.csproj", "{EC0D4811-AEBC-4789-8527-96CC03AF8C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarOrder.Services", "CarOrderandTracker\CarOrder.Services.csproj", "{EC0D4811-AEBC-4789-8527-96CC03AF8C83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarOrder.Aggregate.Model", "CarOrder.Aggregate.Model\CarOrder.Aggregate.Model.csproj", "{DE74ED01-BA0D-43C4-9687-B8C0710A44D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarOrder.Domain", "CarOrder.Aggregate.Model\CarOrder.Domain.csproj", "{DE74ED01-BA0D-43C4-9687-B8C0710A44D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarOrder.Aggregate.Repos", "CarOrder.Aggregate.Repos\CarOrder.Aggregate.Repos.csproj", "{072473F2-CBF5-4B22-8F9B-84E64546827A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarOrder.Business", "CarOrder.Aggregate.Repos\CarOrder.Business.csproj", "{072473F2-CBF5-4B22-8F9B-84E64546827A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
