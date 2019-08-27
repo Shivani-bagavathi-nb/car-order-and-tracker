@@ -1,9 +1,10 @@
 import {IOrder} from './../interfaces/IOrder.interface'
 
 export class Order implements IOrder {
-  public Orderid: number;
-  public Orderitemmodel: string;
-  public Engine: string;
-  public Make: string;
-  public Year: string
+  public orderId: number;
+  public userId : number;
+  public orderItemModel: string;
+  public engine: string;
+  public make: string;
+  public year: string
 }

@@ -1,0 +1,51 @@
+
+.h3 {
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+.h2 {
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+ .input {
+   
+        border: none;
+        outline: none;
+        padding: 0 0 0 10px;
+        color: whitesmoke;
+        float: left;
+      
+ }
+.btn btn-outline-primary {
+    padding: 10px 20px;
+    background-color: rgb(255, 123, 0);
+    color: #000;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgb(153, 74, 0)
+}
+
+.table table-bordered table-dark{
+    padding: 10px 20px;
+    border-block-color: black;
+    border: 5px;
+    box-shadow: 2px 2px 5px 0px;
+    height: 75px;
+    width: 82px;
+    top: 10%;
+    left: 50%;
+    margin-left: 10%
+
+}
+
+.thread-dark {
+    padding: 10px 20px;
+    border: 5px;
+    height: 75px;
+    width: 82px;
+    top: 10%;
+    left: 50%;
+    margin-left: 10%
+}

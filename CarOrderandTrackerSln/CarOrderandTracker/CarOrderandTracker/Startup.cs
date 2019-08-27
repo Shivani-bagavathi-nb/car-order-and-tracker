@@ -28,7 +28,7 @@ namespace CarOrder.Services
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy",
+                options.AddPolicy("AllowOrigin",
                     builder => builder.AllowAnyOrigin()
                     .AllowAnyMethod()
                     .AllowAnyHeader()
@@ -50,7 +50,7 @@ namespace CarOrder.Services
             {
                 app.UseHsts();
             }
-            app.UseCors("CorsPolicy");
+            app.UseCors("AllowOrigin");
             app.UseHttpsRedirection();
             app.UseMvc();
         }

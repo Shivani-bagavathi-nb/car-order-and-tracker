@@ -14,6 +14,7 @@ import { Router } from "@angular/router";
 
 export class OrderpageComponent implements OnInit {
   show: boolean = false;
+  Orderitem : Order;
   items: any;
   orders :any;
   constructor(private orderService: OrderService, private router: Router) {}
@@ -22,11 +23,11 @@ export class OrderpageComponent implements OnInit {
     this.orderService
       .getOrderItems(+localStorage.getItem("id"))
       .subscribe(item => {
-        this.items = item;
-        if(this.items.length !== 0)
+        this.Orderitem = item;
         this.show = true;
-        console.log(this.items);
+        console.log(this.Orderitem);
       },
+     
       error => {
        console.log('----',error) 
       });
@@ -34,10 +35,12 @@ export class OrderpageComponent implements OnInit {
 
   public addItem(order : any) {
     var selectedData = {} as IOrder;
-    selectedData.Orderitemmodel = localStorage.getItem('orderitemmodel');
-    selectedData.Engine = localStorage.getItem('engine'); 
-    selectedData.Make = localStorage.getItem('make');
-    selectedData.Year = localStorage.getItem('year');
+    selectedData.orderId = +localStorage.getItem('orderId');
+    selectedData.userId = +localStorage.getItem('userId');
+    selectedData.orderItemModel = localStorage.getItem('orderItemModel');
+    selectedData.engine = localStorage.getItem('engine'); 
+    selectedData.make = localStorage.getItem('make');
+    selectedData.year = localStorage.getItem('year');
     
     console.log('on sumbit', selectedData);
     this.orderService.addItem(selectedData).subscribe((res) => {
